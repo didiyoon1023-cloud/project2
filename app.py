@@ -68,4 +68,4 @@ if "reset_on_next" not in st.session_state:
 
 # 버튼 입력 함수
 def press(key):
-if st.session_state.reset_on_next and key not in ["+", "-", "×", "÷"]:
+    if st.session_state.reset_on_next and key not in ["+", "-", "×", "÷"]:
